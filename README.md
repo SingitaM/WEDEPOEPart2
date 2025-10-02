@@ -1,36 +1,42 @@
-Kei Mouth Hardware Website
-Project Overview
+# Kei Mouth Hardware Website
+## Project Overview
 This project is the foundation of a website for Kei Mouth Hardware, a primary hardware retail store based in Kei Mouth, Eastern Cape.
 The goal is to create a semantic, accessible, and well-structured HTML5 codebase that is styled and enhanced with additional functionality.
 
-Website Pages
-index.html – Home page with featured products and specials
-about.html – Store information, mission, and values
-products.html – Product categories and listings
-specials.html – Current promotions and discount offers
-contact.html – Contact details and inquiry form
-Research Foundation
+### Website Pages
+* index.html – Home page with featured products and specials
+* about.html – Store information, mission, and values
+* products.html – Product categories and listings
+* specials.html – Current promotions and discount offers
+* contact.html – Contact details and inquiry form
+
+---
+
+## Research Foundation
 Semantic HTML
 The website uses semantic HTML5 elements to improve structure, SEO, and accessibility:
 
-<header> → site banner and navigation
-<nav> → primary menu with active state tracking
-<main> → page-specific content
-<section> → grouped content with headings
-<article> → self-contained product listings
-<footer> → copyright + secondary navigation
-<form> → structured user interactions
+`<header>` → site banner and navigation
+`<nav>` → primary menu with active state tracking
+`<main>` → page-specific content
+`<section>` → grouped content with headings
+`<article>` → self-contained product listings
+`<footer>` → copyright + secondary navigation
+`<form>` → structured user interactions
+
 This ensures better SEO, accessibility for screen readers, and maintainability.
 
 Accessibility Implementation (WCAG 2.1)
 Navigation
-Semantic navigation with <ul> and <li>
-Keyboard-friendly menu with focus states
-ARIA labels for screen readers
-Skip links for bypassing repetitive navigation
-Forms
+- Semantic navigation with `<ul>` and `<li>`
+- Keyboard-friendly menu with focus states
+- ARIA labels for screen readers
+- Skip links for bypassing repetitive navigation
+  
+#### Forms
 Accessible form structure with required fields and ARIA support:
 
+```html
 <div class="form-group">
   <label for="firstName">First Name *</label>
   <input type="text" id="firstName" name="firstName" 
@@ -48,30 +54,38 @@ Accessible form structure with required fields and ARIA support:
       <option value="product">Product Availability</option>
   </select>
 </div>
-Images
-Descriptive alt attributes for meaningful images
-Empty alt attributes for decorative visuals
-Detailed descriptions for product images
-Color & Contrast
-Contrast ratio ≥ 4.5:1
-Color not the only way of conveying information
-Focus indicators for all interactive elements
-Technical Features
-Responsive Design
-Mobile-first with progressive enhancement
-Flexible layouts using CSS Grid & Flexbox
-Responsive images with proper sizing
-Touch-friendly controls
-Performance Optimization
-Optimized WebP images
-Minimal CSS & JavaScript footprint
-Efficient asset loading strategy
-Semantic HTML for faster parsing
-Browser Compatibility
-Compatible with Chrome, Firefox, Safari, Edge
-Progressive enhancement for older browsers
-Modern CSS with fallbacks
-File Structure
+```
+
+### Images
+- Descriptive `alt` attributes for meaningful images
+- Empty `alt` attributes for decorative visuals
+- Detailed descriptions for product images
+- Color & Contrast
+- Contrast ratio ≥ 4.5:1
+- Color not the only way of conveying information
+- Focus indicators for all interactive elements
+
+
+### Technical Features
+### Responsive Design
+- Mobile-first with progressive enhancement
+- Flexible layouts using CSS Grid & Flexbox
+- Responsive images with proper sizing
+- Touch-friendly controls
+  
+### Performance Optimization
+- Optimized WebP images
+- Minimal CSS & JavaScript footprint
+- Efficient asset loading strategy
+- Semantic HTML for faster parsing
+  
+### Browser Compatibility
+- Compatible with Chrome, Firefox, Safari, Edge
+- Progressive enhancement for older browsers
+- Modern CSS with fallbacks
+
+## File Structure
+
 📦ST10465147-Singita Mushwana-WEDE5020-POE
  ┣ 📂.git
  ┃ ┣ 📂hooks
@@ -112,18 +126,34 @@ File Structure
  ┃ ┃ ┃ ┗ 📜19e192041017a785f3b61fd2feff9fa89278f2
  ┃ ┃ ┣ 📂1f
  ┃ ┃ ┃ ┗ 📜48bbd2ba464f6e311c563a6fc75acc5e10239d
+ ┃ ┃ ┣ 📂26
+ ┃ ┃ ┃ ┗ 📜f86ac554f3779ec2472bf1eb7b10a93b51b763
+ ┃ ┃ ┣ 📂2f
+ ┃ ┃ ┃ ┗ 📜859ddf47edb2e0f0e81b8222b4a64c7480c997
+ ┃ ┃ ┣ 📂32
+ ┃ ┃ ┃ ┗ 📜764950088967e9c2e0cc01d672cf2b4fc4e317
  ┃ ┃ ┣ 📂40
  ┃ ┃ ┃ ┗ 📜b3a598fea51c0b5d0f8433efa919637679726e
  ┃ ┃ ┣ 📂47
  ┃ ┃ ┃ ┗ 📜3d436d74e5946af655c0793b1fb5cb27398e21
  ┃ ┃ ┣ 📂48
  ┃ ┃ ┃ ┗ 📜9df5f13a4a70fb5ddd01238acece9651acfc8b
+ ┃ ┃ ┣ 📂4a
+ ┃ ┃ ┃ ┗ 📜1f740e523ca8254e3fef5e46d2f21ad128cba7
+ ┃ ┃ ┣ 📂4b
+ ┃ ┃ ┃ ┗ 📜d27bf08cb9514633ea515ac96885c43df950ee
+ ┃ ┃ ┣ 📂4d
+ ┃ ┃ ┃ ┗ 📜514817f46657f90619e8e995cc29ad7d85f902
  ┃ ┃ ┣ 📂50
  ┃ ┃ ┃ ┗ 📜4feb80973335e683fdca8ddbb97f4d384e5fc0
+ ┃ ┃ ┣ 📂5c
+ ┃ ┃ ┃ ┗ 📜0c059add241f5aee0ab7fe86d83a6b2d5d37e3
  ┃ ┃ ┣ 📂63
  ┃ ┃ ┃ ┗ 📜2b5f4f8f702dd5f2bbbb0016a501d799e171b3
  ┃ ┃ ┣ 📂66
  ┃ ┃ ┃ ┗ 📜0ecb230ab4d0300794a153f7dca15208a3911a
+ ┃ ┃ ┣ 📂74
+ ┃ ┃ ┃ ┗ 📜165331ae7e3f96fefc8ac4f9aacb0298c4f0d7
  ┃ ┃ ┣ 📂7a
  ┃ ┃ ┃ ┗ 📜ca4fcfaf6a3d7e01abac0a439b0160d7d97764
  ┃ ┃ ┣ 📂7e
@@ -134,8 +164,14 @@ File Structure
  ┃ ┃ ┃ ┗ 📜23a484e48e5b63593bf0a80bc68b394d28e64a
  ┃ ┃ ┣ 📂82
  ┃ ┃ ┃ ┗ 📜7faf2c6f7b37979e7b08e5bd358ad6765d7f35
+ ┃ ┃ ┣ 📂85
+ ┃ ┃ ┃ ┗ 📜8c7e3e84755474a2821c5e0a2e11705ded77eb
  ┃ ┃ ┣ 📂8d
  ┃ ┃ ┃ ┗ 📜cc69f96c0bd98e522206ed598b6a3d63dee4ce
+ ┃ ┃ ┣ 📂92
+ ┃ ┃ ┃ ┗ 📜48cb5be03b6fb7e759f5356521b1900dd7a4d0
+ ┃ ┃ ┣ 📂94
+ ┃ ┃ ┃ ┗ 📜d05fedd3709bf0bd4bcbbfcc62a0f7c7fdd00d
  ┃ ┃ ┣ 📂96
  ┃ ┃ ┃ ┗ 📜340dbd96e268ae7e0beb5e759b9d7e45a7a4cf
  ┃ ┃ ┣ 📂98
@@ -144,8 +180,12 @@ File Structure
  ┃ ┃ ┃ ┗ 📜abcf44f2dfa71f03765fb5aa9750dd35b34cca
  ┃ ┃ ┣ 📂9e
  ┃ ┃ ┃ ┗ 📜139fce8dc0487b9da7a9ab75c692a012b2f8a8
+ ┃ ┃ ┣ 📂a2
+ ┃ ┃ ┃ ┗ 📜92ca08243afbadfea801dc73dde384b4718ec6
  ┃ ┃ ┣ 📂ad
  ┃ ┃ ┃ ┗ 📜7273b55badf93219a6749812d5e35fd4f14fbd
+ ┃ ┃ ┣ 📂ae
+ ┃ ┃ ┃ ┗ 📜0523ad58cabc07755ec9506d728532c15a6515
  ┃ ┃ ┣ 📂af
  ┃ ┃ ┃ ┗ 📜164f9fc407824ce60af43b1db30a4169b84f04
  ┃ ┃ ┣ 📂b5
@@ -154,6 +194,14 @@ File Structure
  ┃ ┃ ┃ ┗ 📜b4b321f5e818bc460fd878e97715ab4e1f4242
  ┃ ┃ ┣ 📂ba
  ┃ ┃ ┃ ┗ 📜a6fb777235dac836fd6472a3d3b244ba2f022c
+ ┃ ┃ ┣ 📂bc
+ ┃ ┃ ┃ ┗ 📜fc6897602d1a1d64b2e1767911c2b4b183c392
+ ┃ ┃ ┣ 📂bf
+ ┃ ┃ ┃ ┣ 📜6553d772acf3b61654b2b7ecbb2ec6e3b35786
+ ┃ ┃ ┃ ┗ 📜f64b82431ee76f290ace14be0b47f18fefdee4
+ ┃ ┃ ┣ 📂c9
+ ┃ ┃ ┃ ┣ 📜1b058ff9a01c120855c3cf410f3d9092efb3a7
+ ┃ ┃ ┃ ┗ 📜67c9aac37bb40aa133b17b1fce31ed2d44f707
  ┃ ┃ ┣ 📂cc
  ┃ ┃ ┃ ┗ 📜ade5c4061e180e341a8603f068e37716adcb6f
  ┃ ┃ ┣ 📂d3
@@ -170,6 +218,8 @@ File Structure
  ┃ ┃ ┃ ┗ 📜0f527587b9750651c341276e76cd95f44e4158
  ┃ ┃ ┣ 📂f2
  ┃ ┃ ┃ ┗ 📜34a059a9d4f192b60bc2f906d01d1430382379
+ ┃ ┃ ┣ 📂f7
+ ┃ ┃ ┃ ┗ 📜c519cf2542bf79f7af339380c2cfa872fa1a44
  ┃ ┃ ┣ 📂fd
  ┃ ┃ ┃ ┗ 📜338b60be688a109ca0e58c10fc49cd280705d5
  ┃ ┃ ┣ 📂info
